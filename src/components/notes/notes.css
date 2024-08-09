@@ -19,6 +19,7 @@
   .notes-container {
     column-gap: 1em;
     margin-top: 20px;
+    margin-bottom: 40px;
   }
   
   .single-note {
@@ -46,7 +47,7 @@
     .form-container{
       width: 90%;
     }
-  }
+}
 
   @media (min-width: 576px) {
     .notes-container{
@@ -73,7 +74,7 @@
     border: none;
     border-radius: 6px;
     padding: 8px 20px;
-    transition: background-color 0.2s ease; /* Add transition for background-color */
+    transition: background-color 0.2s ease;
   }
   
   .button:hover {

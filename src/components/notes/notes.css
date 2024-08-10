@@ -3,7 +3,6 @@
     flex-direction: column;
     row-gap: 10px;
     width: 25%;
-    position: relative;
     margin-top: 30px;
   }
   
@@ -30,7 +29,6 @@
     padding: 10px;
     background-size: cover;
     background-position: center;
-    position: relative;
     word-break: break-word;
     break-inside: avoid;
     margin-bottom: 1em;

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./ColorPicker.css";
 import { Palette } from "lucide-react";
 import { Note } from "../../../features/notes/types";

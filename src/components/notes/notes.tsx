@@ -9,9 +9,11 @@ const Notes = () => {
     <div style={{
       width: "100%"
     }}>
+      {pinnedNotes.length > 0 && <h3 style={{padding: "5px"}}>Pinned Notes</h3>}
       <div className="notes-container">
         {pinnedNotes && pinnedNotes.map((note) => <NoteCard note={note} key={note.id}/>)}
       </div>
+      {notes.length > 0 && <h3 style={{padding: "5px"}}>Notes</h3>}
       <div className="notes-container">
         {notes.map((note) => (
           <NoteCard note={note} key={note.id}/>
